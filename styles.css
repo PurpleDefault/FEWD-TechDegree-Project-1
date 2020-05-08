@@ -21,13 +21,13 @@ a:hover {
   color: #6633ff;
 }
 
-/* Section Styles */
 .active {
   color: white;
-  border-bottom: 2px;
+  border-bottom: white solid 2px;
   border-radius: 5%;
 }
 
+/* Section Styles */
 .main-nav {
   width: 100%;
   background: black;
@@ -79,7 +79,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 .tag {
   background-color: #efefef;
