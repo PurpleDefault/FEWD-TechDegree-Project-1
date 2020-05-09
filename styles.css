@@ -123,6 +123,20 @@ header .profile-image:hover {
   background-image: url(images/reading.jpg);
 }
 
+.contact {
+  text-align: center;
+  width: 100%;
+}
+
+.social_img {
+  width: 100%;
+  transition: all .5s;
+}
+
+.social_img:hover {
+  transform: translateY(-7px);
+}
+
 ul.skills {
   padding: 0;
   text-align: left;
@@ -200,7 +214,7 @@ a.social:hover {
       margin: 0 auto;
   }
 
-  .interest {
+  .heading {
     font-size: 1.2em;
   }
 
