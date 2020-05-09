@@ -1,6 +1,6 @@
-# Project 1 Personal Profile Page
+# Techdegree Project 1.
 
-Treehouse Techdegree Programme, Unit 1.
+Treehouse Front-End Web Development, Unit 1.
 
 Personal Profile Page.
 
