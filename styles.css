@@ -108,9 +108,24 @@ header .profile-image:hover {
   border-color: black;
 }
 
+.img_contain {
+  background-color: red;
+  height: 12em;
+  border-radius: 15px;
+  background-size: cover;
+}
+
+.gaming {
+  background-image: url(images/gaming.jpg);
+}
+
+.reading {
+  background-image: url(images/reading.jpg);
+}
+
 ul.skills {
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .skills li {
@@ -129,7 +144,7 @@ ul.skills {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 20px 0 20px 20px;
 }
 
 footer .copyright {
@@ -194,7 +209,6 @@ a.social:hover {
     padding: 0 30px;
   }
 
-
   main {
     padding-top: 20px;
   }
@@ -206,7 +220,7 @@ a.social:hover {
   footer {
     font-size: 1.3em;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 30px auto;
   }
 
 }
