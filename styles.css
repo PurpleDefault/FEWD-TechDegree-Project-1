@@ -108,6 +108,23 @@ header .profile-image:hover {
   border-color: black;
 }
 
+.contact_main {
+  width: 100%;
+  padding-left: 25px;
+  border-radius: 6px;
+  background: #fff;
+  text-align: left;
+  transition: all .5s;
+}
+
+.contact_main ul li {
+  margin-top: 8px;
+}
+
+.contact_main ul {
+  list-style-type: none;
+}
+
 .img_contain {
   background-color: red;
   height: 12em;
@@ -121,20 +138,6 @@ header .profile-image:hover {
 
 .reading {
   background-image: url(images/reading.jpg);
-}
-
-.contact {
-  text-align: center;
-  width: 100%;
-}
-
-.social_img {
-  width: 100%;
-  transition: all .5s;
-}
-
-.social_img:hover {
-  transform: translateY(-7px);
 }
 
 ul.skills {
